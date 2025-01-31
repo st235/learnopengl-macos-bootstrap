@@ -3,9 +3,11 @@
 This project provides a simple CMake setup for using GLFW and GLAD on macOS,
 making it easy to follow the tutorials from [LearnOpenGL](https://learnopengl.com/).  
 
-- ✅ Automatically downloads and configures GLFW & GLAD.
-- ✅ CMake-based build system for macOS
-- ✅ Bootstraped for LearnOpenGL lessons
+✅ Automatically downloads and configures GLFW & GLAD.
+
+✅ CMake-based build system for macOS
+
+✅ Bootstraped for LearnOpenGL lessons
 
 ### Build
 
