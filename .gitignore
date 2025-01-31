@@ -1,3 +1,4 @@
+# Cmake.
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +11,11 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# Build
+**/out
+**/temp
+**/build
+
+# MacOS.
+**/.DS_Store
