@@ -16,6 +16,7 @@ FetchContent_Declare(glfw
 )
 FetchContent_MakeAvailable(glfw)
 
+add_subdirectory(libs/assimp)
 add_subdirectory(libs/glad)
 add_subdirectory(libs/stb_image)
 add_subdirectory(libs/glm)
@@ -23,7 +24,8 @@ add_subdirectory(libs/glm)
 add_executable(learnopengl
     main.cpp
 )
-target_link_libraries(learnopengl PRIVATE 
+target_link_libraries(learnopengl PRIVATE
+    assimp
     glfw
     glad
     stb_image
